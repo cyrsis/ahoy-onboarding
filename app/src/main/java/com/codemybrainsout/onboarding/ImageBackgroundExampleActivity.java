@@ -37,7 +37,7 @@ public class ImageBackgroundExampleActivity extends AhoyOnboarderActivity {
             page.setDescriptionColor(R.color.grey_200);
         }
 
-        setFinishButtonTitle("Get Started");
+        setFinishButtonTitle("Started Now");
         showNavigationControls(true);
         //setGradientBackground();
         setImageBackground(R.drawable.download);

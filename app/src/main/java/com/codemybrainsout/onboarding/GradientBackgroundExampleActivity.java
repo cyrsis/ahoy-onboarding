@@ -16,9 +16,9 @@ public class GradientBackgroundExampleActivity extends AhoyOnboarderActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        AhoyOnboarderCard ahoyOnboarderCard1 = new AhoyOnboarderCard("City Guide", "Detailed guides to help you plan your trip.", R.drawable.backpack);
-        AhoyOnboarderCard ahoyOnboarderCard2 = new AhoyOnboarderCard("Travel Blog", "Share your travel experiences with a vast network of fellow travellers.", R.drawable.chalk);
-        AhoyOnboarderCard ahoyOnboarderCard3 = new AhoyOnboarderCard("Chat", "Connect with like minded people and exchange your travel stories.", R.drawable.chat);
+        AhoyOnboarderCard ahoyOnboarderCard1 = new AhoyOnboarderCard("Justice Begin Here", "Lorem lpsum is simpy dummy test of the printing", R.drawable.backpack);
+        AhoyOnboarderCard ahoyOnboarderCard2 = new AhoyOnboarderCard("Save Money", "Lorem lpsum is simpy dummy test of the printing", R.drawable.chalk);
+        AhoyOnboarderCard ahoyOnboarderCard3 = new AhoyOnboarderCard("Save Time", "3 secs on Board, 3 mins to get Pay", R.drawable.chat);
 
         ahoyOnboarderCard1.setBackgroundColor(R.color.black_transparent);
         ahoyOnboarderCard2.setBackgroundColor(R.color.black_transparent);

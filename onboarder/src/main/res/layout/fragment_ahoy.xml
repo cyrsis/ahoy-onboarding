@@ -23,14 +23,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/iv_image"
-                android:layout_width="@dimen/section_image_item"
-                android:layout_height="@dimen/section_image_item"
-                android:layout_marginTop="90dp"
-                android:layout_gravity="center_horizontal"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -50,6 +43,15 @@
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     tools:text="Section First" />
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="@dimen/section_image_item"
+                    android:layout_height="@dimen/section_image_item"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter" />
 
                 <TextView
                     android:id="@+id/tv_description"
